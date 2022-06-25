@@ -17,7 +17,8 @@ public class KabupatenInputFrame extends JFrame{
     private JPanel buttonPanel;
 
     private int id;
-    public void setId(int id) {this.id = id;}
+    public void setId(int id)
+    {this.id = id;}
     public KabupatenInputFrame() {
         batalButton.addActionListener(e -> {
             dispose();
