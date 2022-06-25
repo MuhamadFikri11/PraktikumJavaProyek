@@ -31,6 +31,10 @@ public class KabupatenViewFrame extends JFrame{
         batalButton.addActionListener(e ->{
             isiTable();
                 });
+        tambahButton.addActionListener(e -> {
+            KabupatenInputFrame inputFrame = new KabupatenInputFrame();
+            inputFrame.setVisible(true);
+                });
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowActivated(WindowEvent e) {
